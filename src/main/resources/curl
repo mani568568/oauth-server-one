@@ -1,0 +1,7 @@
+curl --location --request POST 'localhost:8080/oauth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic dGVzdGNsaWVudDp0ZXN0cGFzcw==' \
+--header 'Cookie: JSESSIONID=457A045CA7D3D65C268B77F48D3554D0' \
+--form 'grant_type=password' \
+--form 'username=mani' \
+--form 'password=manipass'
